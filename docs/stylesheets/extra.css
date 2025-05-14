@@ -1,0 +1,35 @@
+:root {
+  --black: #261230;
+  --white: #ffffff;
+  --teal-100: #B2DFDB;  /* 明るいパステル */
+  --teal-200: #80CBC4;  /* ソフトな中間色 */
+  --teal-300: #4DB6AC;  /* やや落ち着いた中間色 */
+  --teal-400: #26A69A;  /* 純粋なティール */
+  --teal-500: #009688;  /* Material Design の基準色 */
+  --teal-600: #00897B;  /* やや深め */
+  --teal-700: #00796B;  /* 現在指定された基準色 */
+  --teal-800: #00695C;  /* より深いティール */
+  --teal-900: #004D40;  /* かなり濃く、落ち着いた印象 */
+}
+
+[data-md-color-scheme="subako-light"] {
+  --md-default-bg-color--dark: var(--black);
+  --md-primary-fg-color: var(--teal-500);
+  --md-typeset-a-color: var(--teal-800);
+  --md-accent-fg-color: var(--teal-400);
+}
+
+[data-md-color-scheme="subako-dark"] {
+  --md-default-bg-color: var(--teal-800);
+  --md-default-fg-color: var(--white);
+  --md-default-fg-color--light: var(--white);
+  --md-default-fg-color--lighter: var(--white);
+  --md-primary-fg-color: var(--teal-500);
+  --md-primary-bg-color: var(--white);
+  --md-typeset-a-color: var(--teal-200);
+  --md-accent-fg-color: var(--teal-400);
+  --md-typeset-color: var(--white);
+
+  --md-code-fg-color: var(--white);
+  --md-code-bg-color: var(--teal-900);
+}
