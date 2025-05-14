@@ -1,7 +1,43 @@
 [project]
 name = "mkdocs-demo"
 version = "0.1.0"
-description = "Add your description here"
+description = "blog tutorial of material for mkdocs"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.9",
+]
+
+[tool.ruff]
+extend-exclude = ["ruff"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle (error)
+    "F",   # pyflakes
+    "B",   # bugbear
+    "B9",
+    "C4",  # flake8-comprehensions
+    "SIM", # flake8-simplify
+    "I",   # isort
+    "UP",  # pyupgrade
+    "PIE", # flake8-pie
+    "PGH", # pygrep-hooks
+    "PYI", # flake8-pyi
+    "RUF",
+]
+
+ignore = [
+    # only relevant if you run a script with `python -0`,
+    # which seems unlikely for any of the scripts in this repo
+    "B011",
+    # Leave it to the formatter to split long lines and
+    # the judgement of all of us.
+    "E501",
+]
+
+[tool.ruff.lint.isort]
+required-imports = ["from __future__ import annotations"]
