@@ -1,22 +1,41 @@
 :root {
   --black: #261230;
   --white: #ffffff;
-  --teal-100: #B2DFDB;  /* 明るいパステル */
-  --teal-200: #80CBC4;  /* ソフトな中間色 */
-  --teal-300: #4DB6AC;  /* やや落ち着いた中間色 */
-  --teal-400: #26A69A;  /* 純粋なティール */
-  --teal-500: #009688;  /* Material Design の基準色 */
-  --teal-600: #00897B;  /* やや深め */
-  --teal-700: #00796B;  /* 現在指定された基準色 */
-  --teal-800: #00695C;  /* より深いティール */
-  --teal-900: #004D40;  /* かなり濃く、落ち着いた印象 */
+
+  /* https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors */
+  /* teal */
+  --teal-50: #E0F2F1;
+  --teal-100: #B2DFDB;
+  --teal-200: #80CBC4;
+  --teal-300: #4DB6AC;
+  --teal-400: #26A69A;
+  --teal-500: #009688;
+  --teal-600: #00897B;
+  --teal-700: #00796B;
+  --teal-800: #00695C;
+  --teal-900: #004D40;
+  --teal-A100: #A7FFEB;
+  --teal-A200: #64FFDA;
+  --teal-A300: #1DE9B6;
+  --teal-A400: #00BFA5;
+  /* blue gray */
+  --bluegray-50: #ECEFF1;
+  --bluegray-100: #CFD8DC;
+  --bluegray-200: #B0BEC5;
+  --bluegray-300: #90A4AE;
+  --bluegray-400: #78909C;
+  --bluegray-500: #607D8B;
+  --bluegray-600: #546E7A;
+  --bluegray-700: #455A64;
+  --bluegray-800: #37474F;
+  --bluegray-900: #263238;
 }
 
 [data-md-color-scheme="subako-light"] {
-  --md-default-bg-color--dark: var(--black);
+  --md-default-bg-color--dark: var(--bluegray-900);
   --md-primary-fg-color: var(--teal-500);
   --md-typeset-a-color: var(--teal-800);
-  --md-accent-fg-color: var(--teal-400);
+  --md-accent-fg-color: var(--teal-300);
 }
 
 [data-md-color-scheme="subako-dark"] {
