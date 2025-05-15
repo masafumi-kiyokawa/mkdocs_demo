@@ -1,6 +1,9 @@
 site_name: My Docs
 site_url: https://mydomain.org/mysite
 theme:
+  font:
+    code: Roboto Mono
+  language: ja
   name: material
   palette:
 
@@ -23,5 +26,54 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+
+  features:
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.indexes
+
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+  - search
+  - blog:
+      blog_toc: true
+      archive_date_format: YYYY年MM月
+      categories_allowed:
+        - Holidays
+        - News
+      pagination_per_page: 5
+  - tags:
+      tags_file: blog/tags.md
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+      categories:
+        - categories
+        - tags
+
+nav:
+  - Home: index.md
+  - Install: install.md
+  - Usage: usage.md
+  - Blog:
+     - blog/index.md
+     - Tags: blog/tags.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon
+      name: squidfunk on Mastodon
+      link: https://fosstodon.org/@squidfunk
+
+hooks:
+  - hooks/socialmedia.py
