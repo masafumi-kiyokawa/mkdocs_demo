@@ -1,5 +1,6 @@
+site_description: Test blog siteS
 site_name: My Docs
-site_url: https://mydomain.org/mysite
+site_url: https://mkdocs-demo-3sc.pages.dev/
 theme:
   font:
     code: Roboto Mono
