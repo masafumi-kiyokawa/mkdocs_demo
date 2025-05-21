@@ -1,19 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://mydomain.org/mysite/</loc>
-         <lastmod>2025-05-15</lastmod>
+         <loc>https://mkdocs-demo-3sc.pages.dev/</loc>
+         <lastmod>2025-05-21</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/blog/</loc>
-         <lastmod>2025-05-15</lastmod>
+         <loc>https://mkdocs-demo-3sc.pages.dev/install/</loc>
+         <lastmod>2025-05-21</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/blog/2023/12/31/happy-new-years-eve/</loc>
-         <lastmod>2025-05-15</lastmod>
+         <loc>https://mkdocs-demo-3sc.pages.dev/usage/</loc>
+         <lastmod>2025-05-21</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/blog/archive/2023/</loc>
-         <lastmod>2025-05-15</lastmod>
+         <loc>https://mkdocs-demo-3sc.pages.dev/blog/</loc>
+         <lastmod>2025-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://mkdocs-demo-3sc.pages.dev/blog/tags/</loc>
+         <lastmod>2025-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://mkdocs-demo-3sc.pages.dev/blog/2023/12/31/happy-new-years-eve/</loc>
+         <lastmod>2025-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://mkdocs-demo-3sc.pages.dev/blog/2024/01/01/happy-new-year2/</loc>
+         <lastmod>2025-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://mkdocs-demo-3sc.pages.dev/blog/archive/2024/</loc>
+         <lastmod>2025-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://mkdocs-demo-3sc.pages.dev/blog/archive/2023/</loc>
+         <lastmod>2025-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://mkdocs-demo-3sc.pages.dev/blog/category/holidays/</loc>
+         <lastmod>2025-05-21</lastmod>
     </url>
 </urlset>
